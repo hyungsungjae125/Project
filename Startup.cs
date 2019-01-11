@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Test
+namespace Project
 {
     public class Startup
     {
@@ -35,7 +35,6 @@ namespace Test
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseStaticFiles();
             app.UseMvc();
         }
     }
